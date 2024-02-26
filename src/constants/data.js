@@ -70,12 +70,14 @@ export const projects = [
         },
     },
     {
-        title: 'ThreeSeeds Organization',
-        src: '/assets/images/projects/threeseeds.webp',
-        altText: 'Screenshot of ThreeSeeds home page',
-        ariaLabel: "Opens modal window with more information about the ThreeSeeds web project",
+        title: 'Image Optimization on vaping.com project',
+        src: '/assets/images/projects/pagespeed.webp',
+        altText: 'Screenshot of Vaping.com PageSpeed Results',
+        ariaLabel: "Opens modal window with more information about the vaping web project",
         details: {
-            description: "ThreeSeeds is a non-profit organization located in California. Their mission is to provide educational, employment, and entrepreneurial opportunities that build self-esteem and empowers one to become self-sufficient.",
+            description: "There is a need to optimize load images on this project. The use of the Fastly CDN "+ 
+            "and lazy load have been taken a place. As a result of my contribution in optimizing image load on "+
+            "desktop device, it is resulting 90+ score on Google pageload speed",
             technologies: [
                 {
                     title: 'HTML',
@@ -102,7 +104,7 @@ export const projects = [
                     Icon: Icons.DatabaseIcon,
                 },
             ],
-            url: 'https://www.threeseeds.org/',
+            url: 'https://vaping.com/',
             githubUrl: null,
         },
     },
