@@ -15,7 +15,7 @@ import {
 } from "react";
 import PageStructure from './components/PageStructure';
 import Home from './pages/Home';
-import Services from './pages/Services';
+// import Services from './pages/Services';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import ErrorPage from './pages/404';
@@ -60,10 +60,10 @@ function App() {
                     index: true,
                     element: <Home />,
                 },
-                {
-                    path: "services",
-                    element: <Services />,
-                },
+                // {
+                //     path: "services",
+                //     element: <Services />,
+                // },
                 {
                     path: "about",
                     element: <About />,

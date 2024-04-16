@@ -12,10 +12,10 @@ export const navMenu = [
         id: 'Home',
         href: '/',
     },
-    {
-        id: 'Services',
-        href: '/services',
-    },
+    // {
+    //     id: 'Services',
+    //     href: '/services',
+    // },
     {
         id: 'About',
         href: '/about',
@@ -109,12 +109,12 @@ export const projects = [
         },
     },
     {
-        title: 'Blended Concoctions',
-        src: '/assets/images/projects/blended-concoctions.webp',
-        altText: 'Screenshot of Blended Concoctions home page',
-        ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
+        title: 'PPI Edufest 2022',
+        src: '/assets/images/projects/ppi-edufest-2022.webp',
+        altText: 'Screenshot of PPI Edufest 2022 home page',
+        ariaLabel: "Opens modal window with more information about the PPI Edufest 2022 web project",
         details: {
-            description: "A coffee shop website designed using vanilla HTML, CSS, JavaScript, and a hint of jQuery.",
+            description: "An event registration website designed using Bootstrap, HTML, PHP Laravel, JavaScript, and a hint of jQuery. This project involves the integration of Google API (Gdrive and Gform), and provide the REST API endpoint to be consumed by any of Frontend. Now the project has been dropped due to management has been replaced",
             technologies: [
                 {
                     title: 'HTML',
@@ -132,9 +132,13 @@ export const projects = [
                     title: 'jQuery',
                     Icon: Icons.JQueryIcon,
                 },
+                {
+                    title: 'PHP',
+                    Icon: Icons.PHPIcon,
+                },
             ],
-            url: "https://blended-concoctions.netlify.app/",
-            githubUrl: "https://github.com/edwardpark1/coffee-shop",
+            url: "https://youtu.be/dVHelEadSYQ?si=dHKC_o9tuZze2J24",
+            githubUrl: "https://github.com/Barongobber/ppi_edufest_2022",
         },
     },
 ]

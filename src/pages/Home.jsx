@@ -38,7 +38,7 @@ export default function Home() {
                 <h2>Contact</h2>
                 <Socials />
                 <p className="text-center">Are you ready to unlock your dream website? Let&apos;s chat!</p>
-                <ContactForm />
+                {/* <ContactForm /> */}
             </section>
         </>
     );
