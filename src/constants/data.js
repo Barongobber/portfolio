@@ -114,7 +114,7 @@ export const projects = [
         altText: 'Screenshot of PPI Edufest 2022 home page',
         ariaLabel: "Opens modal window with more information about the PPI Edufest 2022 web project",
         details: {
-            description: "An event registration website designed using Bootstrap, HTML, PHP Laravel, JavaScript, and a hint of jQuery. This project involves the integration of Google API (Gdrive and Gform), and provide the REST API endpoint to be consumed by any of Frontend. Now the project has been dropped due to management has been replaced",
+            description: "An event registration website designed using Bootstrap, HTML, PHP Laravel, JavaScript, and a hint of jQuery. This project involves the integration of Google API (Gdrive and Gform), and provide the REST API endpoint to be consumed by any of Frontend. Now the project has been dropped due to management has been replaced. However, the documentation has been uploaded via Youtube, the link has been attached",
             technologies: [
                 {
                     title: 'HTML',
