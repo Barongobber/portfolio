@@ -358,13 +358,27 @@ export const softSkills = [
 
 export const workExp = [
     {
+        company: 'Tomato. Co., Ltd',
+        location: 'Tokyo, Japan',
+        positions: [
+            {
+                title: 'Website Developer',
+                startDate: new Date(2024, 3),
+                endDate: 'present',
+            },
+        ],
+        tasks: [
+            "Attending practical Angular training",
+        ],
+    },
+    {
         company: 'Scandiweb',
         location: 'Remote, Riga, Latvia',
         positions: [
             {
                 title: 'Web Developer',
                 startDate: new Date(2022, 2),
-                endDate: 'present',
+                endDate: new Date(2022, 2),
             },
         ],
         tasks: [
@@ -391,27 +405,6 @@ export const workExp = [
             "Launched an event registration website system built primarily using Bootstrap, JQuery, HTML, PHP Laravel, and MySQL that can hold 40+ agendas along with 100+ speakers and recorded 8000+ registrants",
             "Created an Artificial Intelligence service utilizing Google API and PHP library which generated a list of participants who are eligible for a certificate based on attendance at the online event and tested 100% reliable",
             "Supervised a team of 4 members to execute website development and produced budgeting, resulting 90% on-time deliverables utilizing JIRA Kanban boards and 80% cost-saving using Github Student Developer Pack privileges"
-        ],
-    },
-    {
-        company: 'Xerox Corporation',
-        location: 'Webster, NY',
-        positions: [
-            {
-                title: 'Global Equipment Systems Engineer',
-                startDate: new Date(2015, 9),
-                endDate: new Date(2022, 2),
-            },
-        ],
-        tasks: [
-            "Developed device customization processes for Fortune 500 clients and government accounts",
-            "Ranked number one in my department on process quality and defects testing by standardizing automation and fail-safes",
-            "Provided technical support for remote production sites to facilitate the completion of device configurations",
-            "Collaborated with a small team to improve processes",
-            "Designed .NET desktop application solutions to support engineers",
-            "Successfully completed project of revamping Extract-Transform-Load system that led to 95% improved efficiency in terms of execution time, and incorporated troubleshooting features",
-            "Designed and managed secure SharePoint websites for clients",
-            "Wrote ad-hoc queries for statistical analysis",
         ],
     },
 ];
@@ -458,11 +451,11 @@ export const extracurriculars = [
 
 export const educations = [
     {
-        degree: 'B.S. Computer Engineering',
-        school: 'University at Buffalo, The State University of New York',
-        startDate: new Date(2011, 10),
-        endDate: new Date(2015, 4),
-        location: 'Buffalo, NY',
+        degree: 'BCs in Software Engineering',
+        school: 'University Technology of Malaysia',
+        startDate: new Date(2019, 1),
+        endDate: new Date(2024, 2),
+        location: 'Johor Bahru, Malaysia',
     },
 ];
 
