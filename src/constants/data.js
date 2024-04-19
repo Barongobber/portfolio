@@ -145,11 +145,11 @@ export const projects = [
 
 export const testimonials = [
     {
-        quote: "I am incredibly grateful for Edward's remarkable efforts of completely revamping our nonprofit's website. His dedication and expertise in enhancing the site's security measures while also ensuring a seamless user experience has been nothing short of exceptional. The new website not only boasts a robust security infrastructure that safeguards sensitive data, but it also welcomes visitors with an intuitive and user-friendly interface. Edward took our organization's mission to heart and translated it into an online platform that not only represents our values but also engages our audience effectively. His selfless commitment to improving our online presence has undoubtedly elevated our nonprofit's reach and impact. We owe him a debt of gratitude for his invaluable contribution in making our website a secure and inviting space for all.",
-        name: 'Alicia P.',
-        title: 'Executive Director of Three Seeds Organization',
-        src: '/assets/images/testimonials/alicia.webp',
-        altText: 'Profile of Alicia P.',
+        quote: "Baron was an outstanding member of our team when he served as the project lead for our PPI Edufest website. His exceptional skills and dedication were noticeable when working in our team, especially in the creation of a very good website that exceeded our expectations. Baron is also known for his diligence as he consistently met the deadlines and ensured the success of our projects. His commitment is remarkable and his work ethic is the key factor that sets him apart from the other team members. Overall, Baron is a very good team player and a friend which would make him an invaluable asset wherever he works.",
+        name: 'Zafran Akhmadery Arif',
+        title: 'Secretary-General of PPI Se-Dunia',
+        src: '/assets/images/testimonials/zafran.webp',
+        altText: 'Profile of Zafran.',
     }
 ]
 
