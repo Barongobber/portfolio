@@ -12,10 +12,10 @@ export const navMenu = [
         id: 'Home',
         href: '/',
     },
-    {
-        id: 'Services',
-        href: '/services',
-    },
+    // {
+    //     id: 'Services',
+    //     href: '/services',
+    // },
     {
         id: 'About',
         href: '/about',
@@ -70,12 +70,14 @@ export const projects = [
         },
     },
     {
-        title: 'ThreeSeeds Organization',
-        src: '/assets/images/projects/threeseeds.webp',
-        altText: 'Screenshot of ThreeSeeds home page',
-        ariaLabel: "Opens modal window with more information about the ThreeSeeds web project",
+        title: 'Image Optimization on vaping.com project',
+        src: '/assets/images/projects/pagespeed.webp',
+        altText: 'Screenshot of Vaping.com PageSpeed Results',
+        ariaLabel: "Opens modal window with more information about the vaping web project",
         details: {
-            description: "ThreeSeeds is a non-profit organization located in California. Their mission is to provide educational, employment, and entrepreneurial opportunities that build self-esteem and empowers one to become self-sufficient.",
+            description: "There is a need to optimize load images on this project. The use of the Fastly CDN "+ 
+            "and lazy load have been taken a place. As a result of my contribution in optimizing image load on "+
+            "desktop device, it is resulting 90+ score on Google pageload speed",
             technologies: [
                 {
                     title: 'HTML',
@@ -102,17 +104,17 @@ export const projects = [
                     Icon: Icons.DatabaseIcon,
                 },
             ],
-            url: 'https://www.threeseeds.org/',
+            url: 'https://vaping.com/',
             githubUrl: null,
         },
     },
     {
-        title: 'Blended Concoctions',
-        src: '/assets/images/projects/blended-concoctions.webp',
-        altText: 'Screenshot of Blended Concoctions home page',
-        ariaLabel: "Opens modal window with more information about the Blended Concoctions web project",
+        title: 'PPI Edufest 2022',
+        src: '/assets/images/projects/ppi-edufest-2022.webp',
+        altText: 'Screenshot of PPI Edufest 2022 home page',
+        ariaLabel: "Opens modal window with more information about the PPI Edufest 2022 web project",
         details: {
-            description: "A coffee shop website designed using vanilla HTML, CSS, JavaScript, and a hint of jQuery.",
+            description: "An event registration website designed using Bootstrap, HTML, PHP Laravel, JavaScript, and a hint of jQuery. This project involves the integration of Google API (Gdrive and Gform), and provide the REST API endpoint to be consumed by any of Frontend. Now the project has been dropped due to management has been replaced. However, the documentation has been uploaded via Youtube, the link has been attached",
             technologies: [
                 {
                     title: 'HTML',
@@ -130,20 +132,24 @@ export const projects = [
                     title: 'jQuery',
                     Icon: Icons.JQueryIcon,
                 },
+                {
+                    title: 'PHP',
+                    Icon: Icons.PHPIcon,
+                },
             ],
-            url: "https://blended-concoctions.netlify.app/",
-            githubUrl: "https://github.com/edwardpark1/coffee-shop",
+            url: "https://youtu.be/dVHelEadSYQ?si=dHKC_o9tuZze2J24",
+            githubUrl: "https://github.com/Barongobber/ppi_edufest_2022",
         },
     },
 ]
 
 export const testimonials = [
     {
-        quote: "I am incredibly grateful for Edward's remarkable efforts of completely revamping our nonprofit's website. His dedication and expertise in enhancing the site's security measures while also ensuring a seamless user experience has been nothing short of exceptional. The new website not only boasts a robust security infrastructure that safeguards sensitive data, but it also welcomes visitors with an intuitive and user-friendly interface. Edward took our organization's mission to heart and translated it into an online platform that not only represents our values but also engages our audience effectively. His selfless commitment to improving our online presence has undoubtedly elevated our nonprofit's reach and impact. We owe him a debt of gratitude for his invaluable contribution in making our website a secure and inviting space for all.",
-        name: 'Alicia P.',
-        title: 'Executive Director of Three Seeds Organization',
-        src: '/assets/images/testimonials/alicia.webp',
-        altText: 'Profile of Alicia P.',
+        quote: "Baron was an outstanding member of our team when he served as the project lead for our PPI Edufest website. His exceptional skills and dedication were noticeable when working in our team, especially in the creation of a very good website that exceeded our expectations. Baron is also known for his diligence as he consistently met the deadlines and ensured the success of our projects. His commitment is remarkable and his work ethic is the key factor that sets him apart from the other team members. Overall, Baron is a very good team player and a friend which would make him an invaluable asset wherever he works.",
+        name: 'Zafran Akhmadery Arif',
+        title: 'Secretary-General of PPI Se-Dunia',
+        src: '/assets/images/testimonials/zafran.webp',
+        altText: 'Profile of Zafran.',
     }
 ]
 

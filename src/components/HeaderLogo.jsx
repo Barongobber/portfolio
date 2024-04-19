@@ -55,7 +55,7 @@ export default function HeaderLogo({ isDarkMode }) {
             onMouseEnter={handleHoverEnter}
             onMouseLeave={handleHoverExit}
         >
-            <title>Ed Park Logo</title>
+            <title>Rons Logo</title>
             <defs>
                 <filter id={headerLogoId} x="-.095017" y="-.12509" width="1.19" height="1.2502" colorInterpolationFilters="sRGB">
                     <feComposite in2="SourceGraphic" k2="1.38778e-16" operator="arithmetic" result="composite1" />

@@ -14,7 +14,7 @@ export const LogoIcon = () => {
     // width="100" height="79.797"
     return (
         <svg className="h-12 md:h-13 lg:h-[136px]" version="1.1" viewBox="0 0 100 79.797" xmlns="http://www.w3.org/2000/svg">
-            <title>Ed Park Logo</title>
+            <title>Rons Logo</title>
             <defs>
                 <filter id={logoFilterId} x="-.095017" y="-.12509" width="1.19" height="1.2502" colorInterpolationFilters="sRGB">
                     <feComposite in2="SourceGraphic" k2="1.38778e-16" operator="arithmetic" result="composite1" />
