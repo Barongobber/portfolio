@@ -20,6 +20,7 @@ export default function Education() {
                             <DateTimeStamp date={education.startDate} /> – <DateTimeStamp date={education.endDate} />
                         </p>
                         <span>{education.location}</span>
+                        <span>Grade: {education.grade}</span>
                     </li>
                 ))
             }
