@@ -187,8 +187,8 @@ export const techSkills = [
                 Icon: Icons.CSSIcon,
             },
             {
-                title: 'Tailwind CSS',
-                Icon: Icons.TailwindCSSIcon,
+                title: 'Bootstrap',
+                Icon: Icons.BootstrapIcon,
             },
             {
                 title: 'JavaScript',
@@ -202,6 +202,10 @@ export const techSkills = [
                 title: 'jQuery',
                 Icon: Icons.JQueryIcon,
             },
+            {
+                title: 'Angular',
+                Icon: Icons.AngularIcon,
+            },
         ],
     },
     {
@@ -212,24 +216,20 @@ export const techSkills = [
                 Icon: Icons.PHPIcon,
             },
             {
-                title: 'NodeJS',
-                Icon: Icons.NodeJSIcon,
+                title: 'Magento 2',
+                Icon: Icons.MagentoIcon,
             },
             {
-                title: 'ExpressJS',
-                Icon: Icons.ExpressJSIcon,
+                title: 'MySQL',
+                Icon: Icons.MySQLIcon,
             },
             {
-                title: 'SQL Server',
-                Icon: Icons.SqlServerIcon,
+                title: 'Laravel',
+                Icon: Icons.LaravelIcon,
             },
             {
-                title: 'MongoDB',
-                Icon: Icons.MongoDBIcon,
-            },
-            {
-                title: 'SSRS',
-                Icon: Icons.SsrsIcon,
+                title: 'ElasticSearch',
+                Icon: Icons.ElasticSearchIcon,
             },
         ],
     },
@@ -237,16 +237,24 @@ export const techSkills = [
         category: 'Programming Languages',
         skills: [
             {
-                title: 'C#',
-                Icon: Icons.CsharpIcon,
-            },
-            {
                 title: 'Java',
                 Icon: Icons.JavaIcon,
             },
             {
-                title: 'VBA',
-                Icon: Icons.VBIcon,
+                title: 'C++',
+                Icon: Icons.CplusplusIcon,
+            },
+            {
+                title: 'Typescript',
+                Icon: Icons.TypescriptIcon,
+            },
+            {
+                title: 'Javascript',
+                Icon: Icons.JavascriptIcon,
+            },
+            {
+                title: 'PHP',
+                Icon: Icons.PHPIcon,
             },
         ],
     },
@@ -258,12 +266,8 @@ export const techSkills = [
                 Icon: Icons.WordPressIcon,
             },
             {
-                title: 'Webflow',
-                Icon: Icons.WebflowIcon,
-            },
-            {
-                title: 'Wix',
-                Icon: Icons.WixIcon,
+                title: 'Magento 2',
+                Icon: Icons.MagentoIcon,
             },
         ],
     },
@@ -271,16 +275,44 @@ export const techSkills = [
         category: 'Build Tools, Frameworks, and Versioning',
         skills: [
             {
-                title: 'Vite',
-                Icon: Icons.ViteIcon,
-            },
-            {
                 title: 'Git',
                 Icon: Icons.GitIcon,
             },
             {
+                title: 'Docker',
+                Icon: Icons.DockerIcon,
+            },
+            {
                 title: 'GitHub',
                 Icon: Icons.GitHubIcon,
+            },
+            {
+                title: 'Navicat',
+                Icon: Icons.NavicatIcon,
+            },
+            {
+                title: 'Laravel',
+                Icon: Icons.LaravelIcon,
+            },
+            {
+                title: 'Angular',
+                Icon: Icons.AngularIcon,
+            },
+            {
+                title: 'React',
+                Icon: Icons.ReactIcon,
+            },
+            {
+                title: 'Postman',
+                Icon: Icons.PostmanIcon,
+            },
+            {
+                title: 'Linux Ubuntu',
+                Icon: Icons.UbuntuIcon,
+            },
+            {
+                title: 'Jira',
+                Icon: Icons.JiraIcon,
             },
         ],
     },
@@ -292,29 +324,12 @@ export const techSkills = [
                 Icon: Icons.ResponsiveDesignIcon,
             },
             {
-                title: 'Pen and Paper',
-                Icon: Icons.SketchingIcon,
-            },
-            {
                 title: 'Figma',
                 Icon: Icons.FigmaIcon,
             },
-        ],
-    },
-    {
-        category: 'Microsoft Products',
-        skills: [
             {
-                title: 'Sharepoint',
-                Icon: Icons.SharepointIcon,
-            },
-            {
-                title: 'Excel',
-                Icon: Icons.ExcelIcon,
-            },
-            {
-                title: 'Access',
-                Icon: Icons.AccessIcon,
+                title: 'Bootstrap Studio',
+                Icon: Icons.BootstrapIcon,
             },
         ],
     },
@@ -328,10 +343,6 @@ export const techSkills = [
             {
                 title: 'REST APIs',
                 Icon: Icons.RestAPIIcon,
-            },
-            {
-                title: 'LocalWP',
-                Icon: Icons.LocalWP,
             },
         ],
     },
@@ -358,13 +369,27 @@ export const softSkills = [
 
 export const workExp = [
     {
+        company: 'Tomato. Co., Ltd',
+        location: 'Tokyo, Japan',
+        positions: [
+            {
+                title: 'Website Developer',
+                startDate: new Date(2024, 3),
+                endDate: 'present',
+            },
+        ],
+        tasks: [
+            "Attending practical Angular training",
+        ],
+    },
+    {
         company: 'Scandiweb',
         location: 'Remote, Riga, Latvia',
         positions: [
             {
                 title: 'Web Developer',
                 startDate: new Date(2022, 2),
-                endDate: 'present',
+                endDate: new Date(2022, 2),
             },
         ],
         tasks: [
@@ -393,76 +418,35 @@ export const workExp = [
             "Supervised a team of 4 members to execute website development and produced budgeting, resulting 90% on-time deliverables utilizing JIRA Kanban boards and 80% cost-saving using Github Student Developer Pack privileges"
         ],
     },
-    {
-        company: 'Xerox Corporation',
-        location: 'Webster, NY',
-        positions: [
-            {
-                title: 'Global Equipment Systems Engineer',
-                startDate: new Date(2015, 9),
-                endDate: new Date(2022, 2),
-            },
-        ],
-        tasks: [
-            "Developed device customization processes for Fortune 500 clients and government accounts",
-            "Ranked number one in my department on process quality and defects testing by standardizing automation and fail-safes",
-            "Provided technical support for remote production sites to facilitate the completion of device configurations",
-            "Collaborated with a small team to improve processes",
-            "Designed .NET desktop application solutions to support engineers",
-            "Successfully completed project of revamping Extract-Transform-Load system that led to 95% improved efficiency in terms of execution time, and incorporated troubleshooting features",
-            "Designed and managed secure SharePoint websites for clients",
-            "Wrote ad-hoc queries for statistical analysis",
-        ],
-    },
 ];
 
 export const extracurriculars = [
     {
-        company: 'Toastmasters International Organization',
-        location: 'Pittsford, NY',
+        company: 'International Student Society of Indonesia UTM',
+        location: 'Johor Bahru, Malaysia',
         positions: [
             {
-                title: 'Vice President of Public Relations',
-                startDate: new Date(2023, 6),
-                endDate: 'present',
-            },
-            {
-                title: 'Sergeant at Arms',
-                startDate: new Date(2022, 4),
-                endDate: new Date(2023, 6),
+                title: 'Director of Event of Computing Test Preparation',
+                startDate: new Date(2019, 9),
+                endDate: new Date(2020, 1),
             },
         ],
         tasks: [
-            "Develop strategies to promote the club to the community, potential members, and guests",
-            "Manage the club's social media accounts and website to share club events, achievements, and information",
-            "Create content that showcases the club's activities and benefits",
-        ],
-    },
-    {
-        company: 'Literacy Rochester',
-        location: 'East Rochester, NY',
-        positions: [
-            {
-                title: 'Digital Volunteer',
-                startDate: new Date(2022, 3),
-                endDate: 'present',
-            },
-        ],
-        tasks: [
-            "Diagnose and troubleshoot technical problems",
-            "Demonstrate strong communication skills by explaining technical concepts in a clear and understandable manner",
-            "Recognized for outstanding problem-solving capabilities",
+            "Led a committee of the event and collaborated with final year students to do mentoring session that making 90% of attendees passed subject being taught",
+            "Spearhead event information among Indonesian students in the campus using Instagram and wall magazine as main platform, resulting 100+ registrants and 60+ attendees all Indonesians",
+            "Mentored freshmen and sophomore year students in digital logic and programming technique subjects which decreasing number of the Indonesian students repeating mentioned subjects by 80%",
         ],
     },
 ];
 
 export const educations = [
     {
-        degree: 'B.S. Computer Engineering',
-        school: 'University at Buffalo, The State University of New York',
-        startDate: new Date(2011, 10),
-        endDate: new Date(2015, 4),
-        location: 'Buffalo, NY',
+        degree: 'BCs in Software Engineering',
+        school: 'University Technology of Malaysia',
+        startDate: new Date(2019, 1),
+        endDate: new Date(2024, 2),
+        location: 'Johor Bahru, Malaysia',
+        grade: '3.88/4',
     },
 ];
 
