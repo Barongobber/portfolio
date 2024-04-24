@@ -1,7 +1,7 @@
 /*
     File: data.js
-    Author: Ed Park
-    Copyright: 2023 - Ed Park https://edpark.space
+    Author: Baron Gobi
+    Copyright: 2024 - Baron Gobi
     Version: 1.0
 */
 
@@ -53,16 +53,44 @@ export const projects = [
                     Icon: Icons.JavascriptIcon,
                 },
                 {
+                    title: 'Magento 2',
+                    Icon: Icons.MagentoIcon,
+                },
+                {
                     title: 'PHP',
                     Icon: Icons.PHPIcon,
                 },
                 {
-                    title: 'BackEnd',
-                    Icon: Icons.DatabaseIcon,
+                    title: 'MySQL',
+                    Icon: Icons.MySQLIcon,
+                },
+                {
+                    title: 'React',
+                    Icon: Icons.ReactIcon,
+                },
+                {
+                    title: 'Docker',
+                    Icon: Icons.DockerIcon,
+                },
+                {
+                    title: 'Ubuntu Linux',
+                    Icon: Icons.UbuntuIcon,
+                },
+                {
+                    title: 'ElasticSearch',
+                    Icon: Icons.ElasticSearchIcon,
+                },
+                {
+                    title: 'SCSS',
+                    Icon: Icons.ScssIcon,
                 },
                 {
                     title: 'API',
                     Icon: Icons.APIIcon,
+                },
+                {
+                    title: 'AWS',
+                    Icon: Icons.AwsIcon,
                 },
             ],
             url: 'https://www.rareseeds.com/ageratum-leda',
@@ -92,16 +120,36 @@ export const projects = [
                     Icon: Icons.JavascriptIcon,
                 },
                 {
-                    title: 'WordPress',
-                    Icon: Icons.WordPressIcon,
+                    title: 'Magento 2',
+                    Icon: Icons.MagentoIcon,
                 },
                 {
                     title: 'PHP',
                     Icon: Icons.PHPIcon,
                 },
                 {
-                    title: 'BackEnd',
-                    Icon: Icons.DatabaseIcon,
+                    title: 'MySQL',
+                    Icon: Icons.MySQLIcon,
+                },
+                {
+                    title: 'React',
+                    Icon: Icons.ReactIcon,
+                },
+                {
+                    title: 'Docker',
+                    Icon: Icons.DockerIcon,
+                },
+                {
+                    title: 'Ubuntu Linux',
+                    Icon: Icons.UbuntuIcon,
+                },
+                {
+                    title: 'ElasticSearch',
+                    Icon: Icons.ElasticSearchIcon,
+                },
+                {
+                    title: 'SCSS',
+                    Icon: Icons.ScssIcon,
                 },
             ],
             url: 'https://vaping.com/',
@@ -135,6 +183,30 @@ export const projects = [
                 {
                     title: 'PHP',
                     Icon: Icons.PHPIcon,
+                },
+                {
+                    title: 'Laravel',
+                    Icon: Icons.LaravelIcon,
+                },
+                {
+                    title: 'MySQL',
+                    Icon: Icons.MySQLIcon,
+                },
+                {
+                    title: 'Navicat',
+                    Icon: Icons.NavicatIcon,
+                },
+                {
+                    title: 'Bootstrap',
+                    Icon: Icons.BootstrapIcon,
+                },
+                {
+                    title: 'Postman',
+                    Icon: Icons.PostmanIcon,
+                },
+                {
+                    title: 'REST API',
+                    Icon: Icons.RestAPIIcon,
                 },
             ],
             url: "https://youtu.be/dVHelEadSYQ?si=dHKC_o9tuZze2J24",
@@ -205,6 +277,10 @@ export const techSkills = [
             {
                 title: 'Angular',
                 Icon: Icons.AngularIcon,
+            },
+            {
+                title: 'SCSS',
+                Icon: Icons.ScssIcon,
             },
         ],
     },

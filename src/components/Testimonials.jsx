@@ -1,8 +1,8 @@
 import { testimonials } from "../constants/data";
 /*
     File: Testimonials.jsx
-    Author: Ed Park
-    Copyright: 2023 - Ed Park https://edpark.space
+    Author: Baron Gobi
+    Copyright: 2024 - Baron Gobi
     Version: 1.0
 */
 
