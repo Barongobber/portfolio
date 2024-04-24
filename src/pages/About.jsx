@@ -5,20 +5,15 @@
     Version: 1.0
 */
 
-import CubeCarousel from "../components/CubeCarousel";
-import { dessertImages } from "../constants/data";
-
 export default function About() {
     return (
         <section className="w-[100%] mt-9 sm:mt-10 md:mt-11 flex flex-col flex-nowrap items-center justify-center gap-7 px-mobileBound sm:px-8 sm:gap-8 md:gap-9 lg:gap-10">
-            <h1 className="text-center max-w-[18em]">About Ed</h1>
-            <img className="w-[300px] profile-border" src="/assets/images/ed-park.webp" alt="Profile of Ed Park" />
-            <p className="text-justify">Hello! My name is Ed, and I currently reside and work in Rochester, New York. My primary focus centers on constructing and enhancing websites for businesses, helping them establish a robust digital presence.</p>
-            <p className="text-justify">I hold a B.S. in Computer Engineering from the University at Buffalo. In a former role, I worked as a systems engineer at Xerox for six years, where I specialized in creating and customizing Sharepoint websites for clients. Additionally, I successfully managed a system for processing Sharepoint data in a database. I made the transition into web development driven by my passion for designing websites and solving problems that empower businesses to thrive.</p>
-            <p className="text-justify">Beyond coding and interacting with clients, I find joy in giving back to the community. Volunteering at the East Rochester Library allows me to troubleshoot technical issues and teach computer skills to eager learners. In my spare time, I unleash my creativity in the kitchen by baking a wide array of scrumptious desserts, which I take pleasure in sharing with friends and fellow Toastmasters. Speaking of Toastmasters, I am an active member of the Pinnacle Toastmasters club in Pittsford, New York, where I hone my public speaking skills.</p>
-            <p className="text-center">Here are a few of my baking creations:</p>
-            <CubeCarousel name="desserts" carouselImages={dessertImages} />
-            <p className="text-justify">My journey in web development is driven by the desire to make a meaningful impact on businesses and individuals alike. Combining my technical expertise, creativity, and dedication to continuous improvement, I strive to create compelling digital experiences that exceed expectations.</p>
+            <h1 className="text-center max-w-[18em]">About Rons</h1>
+            <img className="w-[300px] profile-border" src="/assets/images/Rons.webp" alt="Profile of Ed Park" />
+            <p className="text-justify">I am currently working in Shibuya Tokyo Japan which is called as the silicon valley of Japan.</p>
+            <p className="text-justify">I hold a B.Cs. in Software Engineering from the University Technology of Malaysia. I previously worked in Latvia remotely from Indonesia as an e-commerce web developer. My task were most likely linked with integrating the 3rd party-app, slicing the interface, and improving website performance. Thus, dealing with API for integration, FE tasks, and pay attention to the details are my daily activities</p>
+            <p className="text-justify">Outside of coding matters, I also actively involved in the community during my undergraduate study that makes me realize having such abroad and diverse connections are important for the future assets. Aside from that, I also frequently play badminton 2-3 times per week to preserve healthiness and surprisingly got managed to secure a runner-up position on one of the competition in my university.</p>
+            <p className="text-justify">Crave for something new and achieve more than should be are my big punches. That is what I am always trying to be. As an evidence, though maintaing GPA above 3.5 was hard, I still managed to get a dean's list on every semester and involved in non profit organization alongside. Moreover, secured an award from the faculty as the best international student they have during 2022. That was a remarkable journey for me</p>
         </section>
     );
 }
