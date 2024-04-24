@@ -29,7 +29,7 @@ export const navMenu = [
 export const projects = [
     {
         title: 'Amasty Advanced Review Integration on Rareseeds',
-        src: '/assets/images/projects/Rareseeds.webp',
+        src: './assets/images/projects/Rareseeds.webp',
         altText: 'Screenshot of Rareseeds Product Review',
         ariaLabel: "Opens modal window with more information about the Amasty Advanced Review on Rareseeds project",
         details: {
@@ -99,7 +99,7 @@ export const projects = [
     },
     {
         title: 'Image Optimization on vaping.com project',
-        src: '/assets/images/projects/pagespeed.webp',
+        src: './assets/images/projects/pagespeed.webp',
         altText: 'Screenshot of Vaping.com PageSpeed Results',
         ariaLabel: "Opens modal window with more information about the vaping web project",
         details: {
@@ -158,7 +158,7 @@ export const projects = [
     },
     {
         title: 'PPI Edufest 2022',
-        src: '/assets/images/projects/ppi-edufest-2022.webp',
+        src: './assets/images/projects/ppi-edufest-2022.webp',
         altText: 'Screenshot of PPI Edufest 2022 home page',
         ariaLabel: "Opens modal window with more information about the PPI Edufest 2022 web project",
         details: {
@@ -220,7 +220,7 @@ export const testimonials = [
         quote: "Baron was an outstanding member of our team when he served as the project lead for our PPI Edufest website. His exceptional skills and dedication were noticeable when working in our team, especially in the creation of a very good website that exceeded our expectations. Baron is also known for his diligence as he consistently met the deadlines and ensured the success of our projects. His commitment is remarkable and his work ethic is the key factor that sets him apart from the other team members. Overall, Baron is a very good team player and a friend which would make him an invaluable asset wherever he works.",
         name: 'Zafran Akhmadery Arif',
         title: 'Secretary-General of PPI Se-Dunia',
-        src: '/assets/images/testimonials/zafran.webp',
+        src: './assets/images/testimonials/zafran.webp',
         altText: 'Profile of Zafran.',
     }
 ]
@@ -528,37 +528,37 @@ export const educations = [
 
 export const dessertImages = [
     {
-        src: '/assets/images/desserts/oreo-cupcakes.webp',
+        src: './assets/images/desserts/oreo-cupcakes.webp',
         altText: 'Oreo cupcakes with the toastmasters club 10th anniversary cupcake topper',
         value: 'oreo-cupcakes',
         label: 'Oreo cupcakes',
     },
     {
-        src: '/assets/images/desserts/bagel-cake.webp',
+        src: './assets/images/desserts/bagel-cake.webp',
         altText: 'Large cake decorated to look like an everything bagel',
         value: 'bagel-cake',
         label: 'Everything bagel cake',
     },
     {
-        src: '/assets/images/desserts/souffle.webp',
+        src: './assets/images/desserts/souffle.webp',
         altText: 'Cheese souffle in a ramekin',
         value: 'souffle',
         label: 'Cheese souffle',
     },
     {
-        src: '/assets/images/desserts/cookies.webp',
+        src: './assets/images/desserts/cookies.webp',
         altText: 'Plate of chocolate chip cookies',
         value: 'cookies',
         label: 'Chocolate chip cookies',
     },
     {
-        src: '/assets/images/desserts/macaron-cupcake.webp',
+        src: './assets/images/desserts/macaron-cupcake.webp',
         altText: 'Red velvet cupcake with cream cheese frosting with a strawberry macaron on top',
         value: 'macaron-cupcakes',
         label: 'Red velvet cupcake',
     },
     {
-        src: '/assets/images/desserts/cannoli-cupcakes.webp',
+        src: './assets/images/desserts/cannoli-cupcakes.webp',
         altText: 'Cannoli cupcakes with chocolate chips on top',
         value: 'cannoli-cupcakes',
         label: 'Cannoli cupcakes',

@@ -415,7 +415,7 @@ function UseHero({ message, isDarkMode, isErrorMode }) {
 
             async getFont() {
                 // EdTest: Remember to remove assets folder in the paths
-                // Original path: /src/assets/fonts/Orbitron/orbitron-v29-latin-800.woff2
+                // Original path: /src./assets/fonts/Orbitron/orbitron-v29-latin-800.woff2
                 try {
                     const font1 = new FontFace('Orbitron', `url(${headingFontLatest})`, {
                         style: "normal",

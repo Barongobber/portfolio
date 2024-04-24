@@ -6,7 +6,7 @@
 */
 
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
 } from 'react-router-dom';
 import {
@@ -46,7 +46,7 @@ function App() {
         }
     }, [isDarkMode]);
 
-    const router = createBrowserRouter([
+    const router = createHashRouter([
         {
             path: "/",
             element: <PageStructure isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />,
