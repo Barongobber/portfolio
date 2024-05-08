@@ -465,7 +465,7 @@ export const workExp = [
             {
                 title: 'Web Developer',
                 startDate: new Date(2022, 2),
-                endDate: new Date(2022, 2),
+                endDate: new Date(2024, 1),
             },
         ],
         tasks: [
